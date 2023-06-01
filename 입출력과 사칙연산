@@ -191,6 +191,7 @@ const input = fs.readFileSync('/dev/stdin').toString();
 console.log(parseInt(input) - 543);
 
 ##공부한 것
+문자열을 숫자로 바꿀 때, parseInt()는 정수로 / parseFloat()는 실수로 바꾸어준다.
 
 ===================
 
@@ -221,7 +222,7 @@ console.log((A*B)%C);
 console.log(((A%C)*(B%C))%C);
 
 ##공부한 것
-
+map 메서드는 배열 안에 있는 모든 요소 각각에 함수를 호출한 결과를 모아서 새로운 배열로 리턴한다.
 
 ===================
 
@@ -275,8 +276,23 @@ console.log(A+B+C);
 ##공부한 것
 
 
+===================
+
+#10171번
+
+##문제
+고양이를 출력한다.
+
+##풀이
+console.log(`\\    /\\` );
+console.log(`\ )  ( ')` );
+console.log(`\(  /  )`);
+console.log(` \\(__)|`);
 
 
+##공부한 것
+`(백틱)
+\를 화면에 출력할 때 
 
 
 
